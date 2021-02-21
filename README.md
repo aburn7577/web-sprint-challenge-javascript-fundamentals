@@ -29,13 +29,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+    .foreach loops thru everything in an array doesn't return and .map loops thru an array but creates a new array that is returned.
+
 2. Explain the difference between a callback and a higher order function.
+
+    A callback is a function that is passed into a different function. A higher order function is a function that uses functions as an argument.
 
 3. What is closure?
 
+    Somethin that can see the outer function from inside the inner part of the function.
+
 4. Describe the four rules of the 'this' keyword.
 
+    1- Global which is everything in the window your in.
+    2- Implicit which calls from the object it is in.
+    3- New which refers to the specific time of the object that is being created.
+    4- Explicit which defines 'this' exactly usually .call and .apply.
+
 5. Why do we need super() in an extended class?
+
+    Super() is needed to use/see the parents(thing that was extended) without it the class wouldn't be able to use the information from the class it extended.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -60,22 +73,22 @@ Your finished project must include all of the following requirements
 #### Task A: Closure
 
 This challenge takes a look at closures as well as scope. 
-* [ ] Find this challenge in the index.js file. Read the instructions carefully!
+* [X] Find this challenge in the index.js file. Read the instructions carefully!
 
 #### Task B: Objects and Arrays
 
 Test your knowledge of advanced array methods and callbacks.
-* [ ] Find this challenge in the index.js file. Read the instructions carefully!
+* [X] Find this challenge in the index.js file. Read the instructions carefully!
 
 #### Task C: Prototypes
 
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
-* [ ] Find this challenge in the index.js file. Read the instructions carefully!
+* [X] Find this challenge in the index.js file. Read the instructions carefully!
 
 #### Task D: Classes
 
 Once you have completed the prototypes challenge, it's time to convert all your hard work into classes.
-* Find this challenge in the index.js file. Read the instructions carefully!
+* [X] Find this challenge in the index.js file. Read the instructions carefully!
 
 In your solutions, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
