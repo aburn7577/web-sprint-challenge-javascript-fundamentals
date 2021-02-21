@@ -78,7 +78,7 @@ This challenge takes a look at closures as well as scope.
 #### Task B: Objects and Arrays
 
 Test your knowledge of advanced array methods and callbacks.
-* [ ] Find this challenge in the index.js file. Read the instructions carefully!
+* [X] Find this challenge in the index.js file. Read the instructions carefully!
 
 #### Task C: Prototypes
 
